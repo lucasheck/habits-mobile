@@ -1,6 +1,6 @@
 import { ActivityIndicator, View } from "react-native";
 
-const Loading = () => {
+export function Loading() {
 	return (
 		<View
 			style={{
@@ -13,6 +13,4 @@ const Loading = () => {
 			<ActivityIndicator color="#7C3AED" />
 		</View>
 	);
-};
-
-export default Loading;
+}
